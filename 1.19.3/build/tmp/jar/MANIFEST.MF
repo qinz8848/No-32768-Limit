@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: no_32768_limit
+Specification-Vendor: qinz8848
+Specification-Version: 1
+Implementation-Title: no_32768_limit
+Implementation-Version: 0.1-SNAPSHOT
+Implementation-Vendor: qinz8848
+Implementation-Timestamp: 2024-08-05T23:58:33+0800
+MixinConfigs: no_32768_limit.mixins.json
+

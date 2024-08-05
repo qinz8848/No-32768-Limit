@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.qinz8848.no_32768_limit.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "no_32768_limit.refmap.json",
+  "mixins": [
+    "FillCommandMixin",
+    "CloneCommandsMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
