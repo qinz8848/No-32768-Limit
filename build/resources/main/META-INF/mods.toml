@@ -17,7 +17,7 @@ license = "Apache 2.0"
 # The modid of the mod
 modId = "no_32768_limit" #mandatory
 # The version number of the mod
-version = "0.1-SNAPSHOT" #mandatory
+version = "0.1.1-SNAPSHOT" #mandatory
 # A display name for the mod
 displayName = "No 32768 Limit" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/

@@ -6,7 +6,8 @@
   "refmap": "no_32768_limit.refmap.json",
   "mixins": [
     "FillCommandMixin",
-    "CloneCommandsMixin"
+    "CloneCommandsMixin",
+    "FillBiomeCommandMixin"
   ],
   "client": [
   ],
