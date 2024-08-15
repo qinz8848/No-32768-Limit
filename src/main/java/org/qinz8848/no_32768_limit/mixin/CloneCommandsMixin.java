@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.ModifyConstant;
 @Mixin(CloneCommands.class)
 public class CloneCommandsMixin {
     @ModifyConstant(method = "clone", constant = @Constant(intValue = 32768))
-    private static int modifyLimit(int original) {
+    private static int modifyLimit(int constant) {
         return 2147483647;
     }
 }
