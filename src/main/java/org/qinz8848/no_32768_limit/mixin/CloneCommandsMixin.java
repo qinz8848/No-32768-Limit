@@ -9,6 +9,6 @@ import org.spongepowered.asm.mixin.injection.ModifyConstant;
 public class CloneCommandsMixin {
     @ModifyConstant(method = "clone", constant = @Constant(intValue = 32768))
     private static int modifyLimit(int original) {
-        return 2147483647;
+        return Integer.MAX_VALUE;
     }
 }

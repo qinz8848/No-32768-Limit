@@ -3,6 +3,9 @@
     "org/qinz8848/no_32768_limit/mixin/FillCommandMixin": {
       "fillBlocks": "Lnet/minecraft/server/commands/FillCommand;m_137385_(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/commands/arguments/blocks/BlockInput;Lnet/minecraft/server/commands/FillCommand$Mode;Ljava/util/function/Predicate;)I"
     },
+    "org/qinz8848/no_32768_limit/mixin/EnchantmentMixin": {
+      "getMaxLevel": "Lnet/minecraft/world/item/enchantment/Enchantment;m_6586_()I"
+    },
     "org/qinz8848/no_32768_limit/mixin/CloneCommandsMixin": {
       "clone": "Lnet/minecraft/server/commands/CloneCommands;m_136735_(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Ljava/util/function/Predicate;Lnet/minecraft/server/commands/CloneCommands$Mode;)I"
     }
@@ -11,6 +14,9 @@
     "searge": {
       "org/qinz8848/no_32768_limit/mixin/FillCommandMixin": {
         "fillBlocks": "Lnet/minecraft/server/commands/FillCommand;m_137385_(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/commands/arguments/blocks/BlockInput;Lnet/minecraft/server/commands/FillCommand$Mode;Ljava/util/function/Predicate;)I"
+      },
+      "org/qinz8848/no_32768_limit/mixin/EnchantmentMixin": {
+        "getMaxLevel": "Lnet/minecraft/world/item/enchantment/Enchantment;m_6586_()I"
       },
       "org/qinz8848/no_32768_limit/mixin/CloneCommandsMixin": {
         "clone": "Lnet/minecraft/server/commands/CloneCommands;m_136735_(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Ljava/util/function/Predicate;Lnet/minecraft/server/commands/CloneCommands$Mode;)I"
